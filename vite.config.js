@@ -1,4 +1,4 @@
 // vite.config.js
 export default {
-    base: '/-resume',
+        base: process.env.NODE_ENV === 'production' ? '/-resume/' : '/',
   }
