@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const block1 = document.createElement("div");
   block1.className = "block block-info";
   const img = document.createElement("img");
-  img.src = "./public/images/me.jpg";
+  img.src = "public/images/me.jpg";
   
   img.alt = "Photo";
   const text = document.createElement("p");
