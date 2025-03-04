@@ -1,8 +1,6 @@
 
 import "./style.css";
 
-
-
 class Grain {
   constructor (el) {
     this.patternSize = 150;
@@ -85,7 +83,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const block1 = document.createElement("div");
   block1.className = "block block-info";
   const img = document.createElement("img");
-  img.src = "./images/me.jpg";
+  img.src = "./public/images/me.jpg";
+  
   img.alt = "Photo";
   const text = document.createElement("p");
   text.innerText = "Буланова Элина Николаевна \n \n Личные качества: \n \n * Быстро обучаюсь \n * Ценю дисциплину \n * Постоянно самосовершенствуюсь \n * Эмпатична \n ";
