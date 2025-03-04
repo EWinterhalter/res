@@ -3,13 +3,13 @@
   "version": "0.0.0",
   "private": true,
   "description": "",
-  "homepage": "https://github.com/EWinterhalter/-resume#readme",
+  "homepage": "https://ewinterhalter.github.io/res/",
   "bugs": {
-    "url": "https://github.com/EWinterhalter/-resume/issues"
+    "url": "https://github.com/EWinterhalter/resissues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EWinterhalter/-resume.git"
+    "url": "git+https://github.com/EWinterhalter/res.git"
   },
   "license": "ISC",
   "author": "",
@@ -20,7 +20,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "p5": "^1.11.3"
