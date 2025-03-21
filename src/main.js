@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const block2 = document.createElement("div");
   block2.className = "block block-skills";
-  block2.appendChild(document.createElement("p")).innerText = "Навыки\n \n * Работа с UNIX системами, преимущественно c ArchLinux \n * Git, Github Actions, Dokcer, Kubernrtes, Ansible, Nginx \n * PostgreSQL, MySQL, MongoDB \n * JS, Golang, Bash \n * Понимание работы интернет протоколов и сетей";
+  block2.appendChild(document.createElement("p")).innerText = "Навыки\n \n * Работа с UNIX системами, преимущественно c ArchLinux \n * Git, Github Actions, Dokcer, Kubernetes, Ansible, Nginx \n * PostgreSQL, MySQL, MongoDB \n * JS, Golang, Bash \n * Понимание работы интернет протоколов и сетей";
 
   const block3 = document.createElement("div");
   block3.className = "block block-ed";
