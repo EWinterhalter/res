@@ -3,7 +3,6 @@
 body {
   font-family: "Unbounded", sans-serif;
   margin: 0;
-  /*overflow: hidden;*/
   background-image: url("/public/images/back2.jpg");
   background-size: cover;
   background-position: center;
@@ -70,7 +69,6 @@ canvas {
   padding-left: 10px;
 }
 
-/* Адаптация под мобильные устройства */
 @media (max-width: 768px) {
   .container {
     height: auto;
@@ -92,4 +90,9 @@ canvas {
   img {
     max-width: 120px;
   }
+}
+
+a {
+  color: #353535; 
+  text-decoration: none;
 }

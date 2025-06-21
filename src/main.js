@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const block0 = document.createElement("div");
   block0.className = "block block-name";
-  block0.appendChild(document.createElement("p")).innerText = "Резюме \n DevOps / SRE / Linux - инженер";
+  block0.appendChild(document.createElement("p")).innerText = "Резюме \n  СТАЖЕР DevOps / Linux - инженер";
 
 
   const block1 = document.createElement("div");
@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const block2 = document.createElement("div");
   block2.className = "block block-skills";
-  block2.appendChild(document.createElement("p")).innerText = "Навыки\n \n * Работа с UNIX системами, преимущественно c ArchLinux \n * Git, Github Actions, Dokcer, Kubernetes, Ansible, Nginx \n * PostgreSQL, MySQL, MongoDB \n * JS, Golang, Bash \n * Понимание работы интернет протоколов и сетей";
+  block2.appendChild(document.createElement("p")).innerText = "Навыки\n \n * Уверенное владение UNIX (семейства Debian, RHEL, Arch) \n * Опыт написания bash скриптов для автоматизации \n и настройки конфигураций. Базовый Golnag \n * PostgreSQL, MySQL, MongoDB \n * Администрирование СУБД: MySQL, PostgreSQL, MongoDB \n * Работа с Docker, описание Docker-compose файлов \n * Настройка манифестов для Kubernetes, базовая работа с kubectl \n * Опыт настройки IaC с помощью Ansible, Terraform, GitHub Actions \n * Опыт работы с nginx, понимание работы сетевых протоколов";
 
   const block3 = document.createElement("div");
   block3.className = "block block-ed";
@@ -104,7 +104,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const block4 = document.createElement("div");
   block4.className = "block block-contacts";
-  block4.appendChild(document.createElement("p")).innerText = "Контактные данные \n \n Телефон: +79853968488 \n Email: bulanova_ale@mail.ru \n Telegram: @shaitanyan";
+  block4.appendChild(document.createElement("p")).innerHTML = `
+  <strong>Контактные данные</strong><br><br>
+  Телефон: +7 (985) 396-84-88<br>
+  Email: <a href="mailto:bulanova_ale@mail.ru">bulanova_ale@mail.ru</a><br>
+  Telegram: <a href="https://t.me/shaitanyan" target="_blank">@shaitanyan</a><br>
+  Github: <a href="https://github.com/EWinterhalter" target="_blank">@EWinterhalter</a>
+`;
 
   column.appendChild(block0);
   column.appendChild(block1);
