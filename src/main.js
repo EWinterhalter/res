@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const block0 = document.createElement("div");
   block0.className = "block block-name";
-  block0.appendChild(document.createElement("p")).innerText = "Резюме \n  СТАЖЕР DevOps / Linux - инженер";
+  block0.appendChild(document.createElement("p")).innerHTML = "<strong>Резюме <br>  СТАЖЕР DevOps / Linux - инженер</strong>";
 
 
   const block1 = document.createElement("div");
@@ -89,23 +89,23 @@ document.addEventListener("DOMContentLoaded", () => {
   
   img.alt = "Photo";
   const text = document.createElement("p");
-  text.innerText = "Буланова Элина Николаевна \n \n Личные качества: \n \n * Быстро обучаюсь \n * Ценю дисциплину \n * Постоянно самосовершенствуюсь \n * Эмпатична \n ";
+  text.innerHTML = "<strong>Буланова Элина Николаевна</strong> \n \n Личные качества: \n \n * Быстро обучаюсь \n * Ценю дисциплину \n * Постоянно самосовершенствуюсь \n * Эмпатична \n ";
 
   block1.appendChild(img);
   block1.appendChild(text); 
 
   const block2 = document.createElement("div");
   block2.className = "block block-skills";
-  block2.appendChild(document.createElement("p")).innerText = "Навыки\n \n * Уверенное владение UNIX (семейства Debian, RHEL, Arch) \n * Опыт написания bash скриптов для автоматизации \n и настройки конфигураций. Базовый Golnag \n * PostgreSQL, MySQL, MongoDB \n * Администрирование СУБД: MySQL, PostgreSQL, MongoDB \n * Работа с Docker, описание Docker-compose файлов \n * Настройка манифестов для Kubernetes, базовая работа с kubectl \n * Опыт настройки IaC с помощью Ansible, Terraform, GitHub Actions \n * Опыт работы с nginx, понимание работы сетевых протоколов";
+  block2.appendChild(document.createElement("p")).innerHTML = "<strong>Навыки</strong><br> * Уверенное владение UNIX (семейства Debian, RHEL, Arch) \n * Опыт написания bash скриптов для автоматизации \n и настройки конфигураций. Базовый Golnag \n * PostgreSQL, MySQL, MongoDB \n * Администрирование СУБД: MySQL, PostgreSQL, MongoDB \n * Работа с Docker, описание Docker-compose файлов \n * Настройка манифестов для Kubernetes, базовая работа с kubectl \n * Опыт настройки IaC с помощью Ansible, Terraform, GitHub Actions \n * Опыт работы с nginx, понимание работы сетевых протоколов";
 
   const block3 = document.createElement("div");
   block3.className = "block block-ed";
-  block3.appendChild(document.createElement("p")).innerText = "Образование \n \n Международная Академия \n Информационных Технологий «IT HUB» \n Кафедра: Программирование и управление ИТ-продуктом \n Специальность: Backend-разработчик \n Период обучения: 2022 - 2026";
+  block3.appendChild(document.createElement("p")).innerHTML = "<strong>Образование</strong> \nМеждународная Академия <br> Информационных Технологий «IT HUB» \n Кафедра: Программирование и управление ИТ-продуктом \n Специальность: Backend-разработчик \n Период обучения: 2022 - 2026";
 
   const block4 = document.createElement("div");
   block4.className = "block block-contacts";
   block4.appendChild(document.createElement("p")).innerHTML = `
-  <strong>Контактные данные</strong><br><br>
+  <strong>Контактные данные</strong><br><br> 
   Телефон: +7 (985) 396-84-88<br>
   Email: <a href="mailto:bulanova_ale@mail.ru">bulanova_ale@mail.ru</a><br>
   Telegram: <a href="https://t.me/shaitanyan" target="_blank">@shaitanyan</a><br>
